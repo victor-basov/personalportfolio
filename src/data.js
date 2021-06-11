@@ -10,15 +10,15 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "Project Two",
+      title: "Quiz",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-        githublink: "https://www.amazon.com/ref=nav_logo",
-        linktoproject: "https://www.reddit.com/",
+        "https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg",
+        githublink: "https://github.com/victor-basov/quiz/tree/main",
+        linktoproject: "https://victor-basov.github.io/quiz/",
     },
     {
       id: 3,
-      title: "Project Three",
+      title: "",
       img:
         "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
         githublink: "https://www.freecodecamp.org/learn/",
@@ -26,7 +26,7 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
-      title: "Project Four",
+      title: "",
       img:
         "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
         githublink: "https://www.youtube.com/",

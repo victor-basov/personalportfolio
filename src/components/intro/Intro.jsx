@@ -21,7 +21,7 @@ useEffect(()=>{
 
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/IMG_9491.jpg" alt="" />
+                    <img src="/home/victor/portfolio-website/public/assets/IMG_9491.jpg" alt="" />
                 </div>
             </div>
             <div className="right">
