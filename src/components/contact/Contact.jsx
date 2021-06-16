@@ -13,7 +13,7 @@ const handleSubmit = (e)=> {
 return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/handshake.svg" alt="" />
+                <img src="https://image.flaticon.com/icons/png/512/4850/4850955.png" alt="" />
             </div>
             <div className="right">
                 <h2>Contact</h2>

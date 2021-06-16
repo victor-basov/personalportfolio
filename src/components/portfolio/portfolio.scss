@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: white;
     position: relative;
     transition: all 0.5s ease ;
     cursor: pointer;
@@ -72,7 +72,7 @@
        z-index: 1;
     }
     &:hover{
-        background-color: rgb(220, 202, 255) ;
+        background-color: rgb(195, 167, 252) ;
         img{
             opacity: 0.2;
             z-index: 0;

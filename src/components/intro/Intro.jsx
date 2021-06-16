@@ -21,7 +21,7 @@ useEffect(()=>{
 
             <div className="left">
                 <div className="imgContainer">
-                    <img src="/home/victor/portfolio-website/public/assets/IMG_9491.jpg" alt="" />
+                    <img src="https://d.img.vision/victorassets/IMG_9491.jpg" alt="a picture of victor" />
                 </div>
             </div>
             <div className="right">
@@ -31,7 +31,7 @@ useEffect(()=>{
                     <h3>a <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
-                    <img src="assets/down-arrow.png" alt="" />
+                    <img src="https://image.flaticon.com/icons/png/512/892/892498.png" alt="arrow" />
                 </a>
             </div>
         </div>

@@ -7,7 +7,7 @@ export default function Works() {
     const data = [
         {
             id: "1",
-            icon: "./assets/coding.png",
+            icon: "https://icons.veryicon.com/png/o/business/purchase-sale-and-inventory-management/coding-scheme.png",
             title: "Web Design",
             desc:
               "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -16,7 +16,7 @@ export default function Works() {
           },
           {
             id: "2",
-            icon: "./assets/globe.png",
+            icon: "https://image.flaticon.com/icons/png/512/900/900782.png",
             title: "Mobile Application",
             desc:
               "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -25,7 +25,7 @@ export default function Works() {
           },
           {
             id: "3",
-            icon: "./assets/writing.png",
+            icon: "https://image.flaticon.com/icons/png/512/757/757257.png",
             title: "Branding",
             desc:
               "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -69,8 +69,8 @@ export default function Works() {
                 </div>))}
             </div>
 
-            <img src="assets/greater-than.png" className="arrow left" alt="" onClick={() => handleClick("left")}/>
-            <img src="assets/greater-than.png" className="arrow right" alt="" onClick={() => handleClick()}/>
+            <img src="https://image.flaticon.com/icons/png/512/892/892528.png" className="arrow left" alt="" onClick={() => handleClick("left")}/>
+            <img src="https://image.flaticon.com/icons/png/512/892/892528.png" className="arrow right" alt="" onClick={() => handleClick()}/>
 
         </div>
     );

@@ -1,7 +1,31 @@
 export const featuredPortfolio = [
 
+    {id: 1,
+      title: "Maps App",
+      img:
+        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
+        githublink: "https://www.youtube.com/",
+        linktoproject: "https://www.crunchyroll.com/",
+
+    },
+    {id: 2,
+      title: "Blog App",
+      img:
+        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
+        githublink: "https://www.youtube.com/",
+        linktoproject: "https://www.crunchyroll.com/",
+
+    },
     {
-      id: 1,
+      id: 3,
+      title: "Dash App",
+      img:
+        "https://i.imgur.com/T7JP0Ox.png",
+        githublink: "https://github.com/victor-basov/victoradmin",
+        linktoproject: "https://victor-basov.github.io/victoradmin/",
+    },
+    {
+      id: 4,
       title: "The Witch ",
       img:
         "https://www.denofgeek.com/wp-content/uploads/2016/02/the_witch_ending_explained.jpg?fit=638%2C368",
@@ -9,7 +33,7 @@ export const featuredPortfolio = [
         linktoproject: "https://victor-basov.github.io/horrormovie/",
     },
     {
-      id: 2,
+      id: 5,
       title: "Quiz",
       img:
         "https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg",
@@ -17,18 +41,10 @@ export const featuredPortfolio = [
         linktoproject: "https://victor-basov.github.io/quiz/",
     },
     {
-      id: 3,
-      title: "",
+      id: 6,
+      title: "Social App",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-        githublink: "https://www.freecodecamp.org/learn/",
-        linktoproject: "https://www.theodinproject.com/dashboard",
-    },
-    {
-      id: 4,
-      title: "",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
         githublink: "https://www.youtube.com/",
         linktoproject: "https://www.crunchyroll.com/",
     },

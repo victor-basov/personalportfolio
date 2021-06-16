@@ -9,7 +9,7 @@ export default function Testimonials() {
           title: "The cat from Tom & Jerry",
           img:
             "https://i.pinimg.com/474x/6c/7b/a7/6c7ba77d107f66deaedb51bb7b5714a7.jpg",
-          icon: "assets/twitter.png",
+          icon: "https://image.flaticon.com/icons/png/512/220/220375.png",
           desc:
             "When I'm not chasing that dang mouse, I'm enjoying a scrumptious souffle made by this guy.",
         },
@@ -19,7 +19,7 @@ export default function Testimonials() {
           title: "A pink, panther",
           img:
             "https://urbanmoms.ca/wp-content/uploads/2014/05/603550_10151718002252965_1269600228_n.png",
-          icon: "assets/youtube.png",
+          icon: "https://image.flaticon.com/icons/png/512/160/160205.png",
           desc:
             "Ol' boy sure knows how to cook up a mean mushroom omelette!",
           featured: true,
@@ -30,7 +30,7 @@ export default function Testimonials() {
           title: "You know him",
           img:
             "https://i2.wp.com/theorkneynews.scot/wp-content/uploads/2020/09/Scooby-Doo-Where-are-You.png?resize=574%2C430&ssl=1",
-          icon: "assets/linkedin.png",
+          icon: "https://image.flaticon.com/icons/png/512/220/220343.png",
           desc:
             "Feeds me the most Scooby Snax 😃",
         },
@@ -45,7 +45,7 @@ export default function Testimonials() {
                 {data.map((d) => (
                 <div className={d.featured ? "card featured" : "card"}>
                     <div className="top">
-                        <img src="assets/right-arrow.png" className="left" alt="" />
+                        <img src="https://image.flaticon.com/icons/png/512/892/892493.png" className="left" alt="" />
                         <img src={d.img} className="user" alt="" />
                         <img src={d.icon} className="right" alt="" />
                     </div>
