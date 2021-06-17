@@ -1,23 +1,6 @@
 export const featuredPortfolio = [
 
     {id: 1,
-      title: "Maps App",
-      img:
-        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
-        githublink: "https://www.youtube.com/",
-        linktoproject: "https://www.crunchyroll.com/",
-
-    },
-    {id: 2,
-      title: "Blog App",
-      img:
-        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
-        githublink: "https://www.youtube.com/",
-        linktoproject: "https://www.crunchyroll.com/",
-
-    },
-    {
-      id: 3,
       title: "Dash App",
       img:
         "https://i.imgur.com/T7JP0Ox.png",
@@ -25,28 +8,49 @@ export const featuredPortfolio = [
         linktoproject: "https://victor-basov.github.io/victoradmin/",
     },
     {
-      id: 4,
-      title: "The Witch ",
-      img:
-        "https://www.denofgeek.com/wp-content/uploads/2016/02/the_witch_ending_explained.jpg?fit=638%2C368",
-        githublink: "https://github.com/victor-basov/horrormovie",
-        linktoproject: "https://victor-basov.github.io/horrormovie/",
-    },
-    {
-      id: 5,
+      id: 2,
       title: "Quiz",
       img:
         "https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg",
         githublink: "https://github.com/victor-basov/quiz/tree/main",
         linktoproject: "https://victor-basov.github.io/quiz/",
+
+    },
+    {
+      id: 3,
+      title: "The Witch ",
+      img:
+        "https://www.denofgeek.com/wp-content/uploads/2016/02/the_witch_ending_explained.jpg?fit=638%2C368",
+        githublink: "https://github.com/victor-basov/horrormovie",
+        linktoproject: "https://victor-basov.github.io/horrormovie/",
+
+    },
+    {id: 4,
+      title: "Maps App",
+      img:
+        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
+        githublink: "",
+        linktoproject: "",
+
+
+    },
+    {
+      id: 5,
+      title: "Blog App",
+      img:
+        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
+        githublink: "",
+        linktoproject: "",
+
+
     },
     {
       id: 6,
       title: "Social App",
       img:
         "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
-        githublink: "https://www.youtube.com/",
-        linktoproject: "https://www.crunchyroll.com/",
+        githublink: "",
+        linktoproject: "",
     },
   ];
 

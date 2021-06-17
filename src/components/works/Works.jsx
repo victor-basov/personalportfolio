@@ -8,29 +8,29 @@ export default function Works() {
         {
             id: "1",
             icon: "https://icons.veryicon.com/png/o/business/purchase-sale-and-inventory-management/coding-scheme.png",
-            title: "Web Design",
+            title: "Dashboard Application",
             desc:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+              "This dashboard application was created using React, Material UI, Recharts, and React Router. Back end is not completed yet! ",
             img:
-              "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+              "https://i.imgur.com/T7JP0Ox.png",
           },
           {
             id: "2",
             icon: "https://image.flaticon.com/icons/png/512/900/900782.png",
-            title: "Mobile Application",
+            title: "Who Wants to be a Millionaire?",
             desc:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+              "This quiz application was created using React and Material-UI.",
             img:
-              "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+              "https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg",
           },
           {
             id: "3",
             icon: "https://image.flaticon.com/icons/png/512/757/757257.png",
-            title: "Branding",
+            title: "Maps Application",
             desc:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+              "This application has not been completed yet! Come back soon for more!",
             img:
-              "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+              "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
           },
 
     ];
@@ -56,13 +56,11 @@ export default function Works() {
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}
                                 </p>
-                                <span>
-                                    Projects
-                                </span>
+
                             </div>
                         </div>
                         <div className="right">
-                            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                            <img src={d.img}
                             alt="" />
                         </div>
                     </div>

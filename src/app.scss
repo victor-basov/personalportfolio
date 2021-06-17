@@ -1,9 +1,9 @@
 .app{
- height: 100vh;   
+ height: 100vh;
 
 .sections {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 69px);
     background-color: salmon;
     position: relative;
     top: 70px;
@@ -12,7 +12,9 @@
     scrollbar-width: none; //for firefox
     &::-webkit-scrollbar{
         display: none;
+
     }
+
 
     > *{
         width: 100vw;
