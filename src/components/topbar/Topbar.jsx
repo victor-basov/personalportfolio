@@ -9,7 +9,7 @@ export default function Topbar({ menuOpen , setMenuOpen }) {
                     <a href="#intro" className="logo">victor.</a>
                     <div className="itemContainer">
                         <Button id="button1" target="_blank"
-                        href="https://pdfhost.io/v/QcQwb5pZY_Victor_Basov_August_Resumedocx.pdf" size="medium"
+                        href="https://pdfhost.io/v/mR~dQBT.4_Victor_Basov_Fall_Resumedocx" size="medium"
                         startIcon={<PictureAsPdf/>}></Button>
                     </div>
                     <div className="itemContainer">
