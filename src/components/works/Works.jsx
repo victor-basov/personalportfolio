@@ -28,9 +28,9 @@ export default function Works() {
             icon: "https://image.flaticon.com/icons/png/512/757/757257.png",
             title: "Maps Application",
             desc:
-              "This application has not been completed yet! Come back soon for more!",
+              "A Map Application developed using MongoDB, Express, React, Node, HTML, CSS, Javascript, Git, and the Mapbox API. The application allows for the user to sign up for an account and then login. After login, the user can drop a pin anywhere on the map of the world and give the spot a rating and a review. Only a screenshot is available, for now!",
             img:
-              "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
+              "https://i.imgur.com/20ljXgi.png",
           },
 
     ];

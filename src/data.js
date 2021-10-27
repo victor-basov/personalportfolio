@@ -28,7 +28,7 @@ export const featuredPortfolio = [
     {id: 4,
       title: "Maps App",
       img:
-        "https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295",
+        "https://i.imgur.com/20ljXgi.png",
         githublink: "https://github.com/victor-basov/ratemydestination",
         linktoproject: "https://ratemydestination.herokuapp.com/",
 
