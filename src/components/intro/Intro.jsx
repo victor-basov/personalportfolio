@@ -11,7 +11,7 @@ useEffect(()=>{
         showCursor: true,
         backDelay: 1500,
         backSpeed: 60,
-            strings: ['Photographer 📷 ', ' Foodie 🍣', 'Web Developer at Soterix Medical 😈'],
+            strings: ['Photographer 📷 ', ' Foodie 🍣', 'Software Developer at MetTel 😈'],
         });
 
 },[])
