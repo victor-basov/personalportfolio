@@ -55,7 +55,7 @@
     cursor: pointer;
 
 
-    @include mobile{
+    @include global.mobile {
         width: 130px;
         height: 100px;
     }

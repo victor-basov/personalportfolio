@@ -31,7 +31,7 @@ useEffect(()=>{
                     <h3>a <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
-                    <img src="https://image.flaticon.com/icons/png/512/892/892498.png" alt="arrow" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/892/892498.png" alt="arrow" />
                 </a>
             </div>
         </div>

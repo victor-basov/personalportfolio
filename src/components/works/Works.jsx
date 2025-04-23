@@ -16,7 +16,7 @@ export default function Works() {
           },
           {
             id: "2",
-            icon: "https://image.flaticon.com/icons/png/512/900/900782.png",
+            icon: "https://cdn-icons-png.flaticon.com/512/900/900782.png",
             title: "Who Wants to be a Millionaire?",
             desc:
               "This quiz application was created using React and Material-UI.",
@@ -25,7 +25,7 @@ export default function Works() {
           },
           {
             id: "3",
-            icon: "https://image.flaticon.com/icons/png/512/757/757257.png",
+            icon: "https://cdn-icons-png.flaticon.com/512/757/757257.png",
             title: "Maps Application",
             desc:
               "A Map Application developed using MongoDB, Express, React, Node, HTML, CSS, Javascript, Git, and the Mapbox API. The application allows for the user to sign up for an account and then login. After login, the user can drop a pin anywhere on the map of the world and give the spot a rating and a review. Only a screenshot is available, for now!",
@@ -68,7 +68,7 @@ export default function Works() {
             </div>
 
             <img src="https://image.flaticon.com/icons/png/512/892/892528.png" className="arrow left" alt="" onClick={() => handleClick("left")}/>
-            <img src="https://image.flaticon.com/icons/png/512/892/892528.png" className="arrow right" alt="" onClick={() => handleClick()}/>
+            <img src="https://cdn-icons-png.flaticon.com/512/892/892528.png" className="arrow right" alt="" onClick={() => handleClick()}/>
 
         </div>
     );

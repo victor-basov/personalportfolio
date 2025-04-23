@@ -78,7 +78,7 @@
             span{
                 width: 100%;
                 height: 3px;
-                background-color: $mainColor;
+                background-color: global.$mainColor;
                 transform-origin: left;
                 transition: all 2s ease;
                     }
@@ -89,7 +89,7 @@
         }
 
     &.active{
-        background-color: $mainColor;
+        background-color: global.$mainColor;
         color: white;
 
         .hamburger{

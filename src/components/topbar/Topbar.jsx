@@ -13,6 +13,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                             id="button1" 
                             data-testid="button1" 
                             target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="View Victor Basov Resume PDF"
                             href="https://pdfhost.io/v/Eje3axuz6_Victor_Basov_Winter_Resumedocx" 
                             size="medium"
                             startIcon={<PictureAsPdf/>}>
@@ -23,6 +25,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                             className="button" 
                             data-testid="mail-button" 
                             target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Send email to Victor Basov"
                             href="mailto: vbasov10@gmail.com" 
                             size="medium" 
                             startIcon={<Mail/>}>
@@ -33,6 +37,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                             className="button" 
                             data-testid="linkedin-button" 
                             target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Victor Basov LinkedIn Profile"
                             href="https://www.linkedin.com/in/victorbasov/" 
                             size="medium" 
                             startIcon={<LinkedIn/>}>
@@ -43,6 +49,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                             id="button4" 
                             data-testid="button4" 
                             target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Victor Basov GitHub Profile"
                             href="https://github.com/victor-basov" 
                             size="medium" 
                             startIcon={<GitHub/>}>

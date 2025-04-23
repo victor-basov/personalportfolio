@@ -49,22 +49,28 @@ export default function Portfolio() {
                             alt={`${d.title} project thumbnail`}
                         />
                         <h3>{d.title}</h3>
-                        <Button 
-                            data-testid="github-button"
-                            aria-label={`GitHub repository for ${d.title}`}
-                            target="_blank"
-                            href={d.githublink} 
-                            size="medium" 
-                            startIcon={<GitHub/>}>
-                        </Button>
-                        <Button 
-                            data-testid="project-link-button"
-                            aria-label={`Live project link for ${d.title}`}
-                            target="_blank"
-                            href={d.linktoproject} 
-                            size="medium" 
-                            startIcon={<Link/>}>
-                        </Button>
+                        {d.githublink && (
+                            <Button 
+                                data-testid="github-button"
+                                aria-label={`GitHub repository for ${d.title}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={d.githublink} 
+                                size="medium" 
+                                startIcon={<GitHub/>}>
+                            </Button>
+                        )}
+                        {d.linktoproject && (
+                            <Button 
+                                data-testid="project-link-button"
+                                aria-label={`Live project link for ${d.title}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={d.linktoproject} 
+                                size="medium" 
+                                startIcon={<Link/>}>
+                            </Button>
+                        )}
                     </div>
                 ))}
             </div>
