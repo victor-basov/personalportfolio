@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@use "../../global.scss" as global;
 
 
 .portfolioList {
@@ -12,19 +12,19 @@
     justify-content: center;
 
 
-    @include mobile {
+    @include global.mobile {
         margin-right: 25px;
     }
 
     &.active{
-        background-color: $mainColor;
+        background-color: global.$mainColor;
         color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-left: 100px;
 
-        @include mobile {
+        @include global.mobile {
             margin-right: 25px;
             font-size: 20px;
         }

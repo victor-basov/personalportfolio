@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@use "../../global.scss" as global;
 
 
 .intro{
@@ -6,7 +6,7 @@
     display: flex;
 
 
-@include mobile{
+@include global.mobile {
     flex-direction: column;
     align-items: center;
 }
@@ -17,21 +17,17 @@
 
 
         .imgContainer{
-            width: 700px;
-            height: 700px;
+                @include global.mobile {
             display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float:right;
-
-            @include mobile{
                 align-items: flex-start;
-              }
+                justify-content: center;
+                float: right;
+            }
 
             img{
                 height: 90%;
                 border-radius: 50px;
-                @include mobile {
+                @include global.mobile {
                     height: 40%;
                 }
             }

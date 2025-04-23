@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@use "../../global.scss" as global;
 
 
 
@@ -6,7 +6,7 @@
     width: 100%;
     height: 70px;
     background-color: white;
-    color: $mainColor;
+    color: global.$mainColor;
     position: fixed;
     top: 0;
     z-index: 3;
@@ -24,7 +24,7 @@
         align-items: center;
 
         .logo {
-            font-size: 40px;
+                background-color: global.$mainColor;
             font-weight: 700;
             text-decoration: none;
             color: inherit;
@@ -36,7 +36,7 @@
    align-items: center;
    margin-left: 30px;
 
-@include mobile {
+@include global.mobile {
     display: none;
 }
    .icon{
@@ -56,7 +56,7 @@
     }
     .button:hover{
         color: rgb(15, 107, 228);
-        background-color: transparent;
+        background-color: global.$mainColor;
         box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;

@@ -1,11 +1,11 @@
-@import "../../global.scss";
+@use "../../global.scss" as global;
 
 
 
 .menu {
     width: 300px;
     height: 100vh;
-    background-color: $mainColor;
+    background-color: global.$mainColor;
     position: fixed;
     top: 0;
     right: -300px;

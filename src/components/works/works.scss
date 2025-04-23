@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@use "../../global.scss" as global;
 
 
 
@@ -14,16 +14,21 @@
         position: absolute;
         cursor: pointer;
 
-        @include mobile {
-           display: none;
+        @include global.mobile {
 
         }
 
 
         &.left{
-           left: 100px;
-           transform: rotateY(180deg);
+                        @include global.mobile {
+e {
+otateY(180deg);
+            
+            @include global.mobile {
+                left: 0;
+            }
         }
+        
         &.right{
             right: 100px;
         }
@@ -39,7 +44,7 @@
     transition: all 1s ease-out;
 
 
-    @include mobile {
+    @include global.mobile {
         height: 100vh;
         flex-direction: column;
         justify-content: center;

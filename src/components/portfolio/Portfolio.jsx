@@ -1,96 +1,73 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
-import "./portfolio.scss"
-import { featuredPortfolio,
-    /*webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio*/} from "../../data"
-import {Link, GitHub} from "@material-ui/icons"
-import { Button } from "@material-ui/core"
+import "./portfolio.scss";
+import { featuredPortfolio } from "../../data";
+import { Link, GitHub } from "@mui/icons-material";
+import { Button } from "@mui/material";
+
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured");
     const [data, setData] = useState([]);
+    
     const list = [
-    {
-        id: "featured",
-        title: 'Featured',
-    },
-    {/*{
-        id: "web",
-        title: "Web App",
-    },
-    {
-        id: "mobile",
-        title: "Mobile App",
-    },
-    {
-        id: "design",
-        title: "Design",
-    },
-    {
-        id: "content",
-        title: "Content",
-    },*/}
-];
+        {
+            id: "featured",
+            title: 'Featured',
+        }
+        // Additional portfolio categories can be added here in the future
+    ];
 
-useEffect(()=>{
-
-    switch(selected){
-        case "featured":
-            setData(featuredPortfolio);
-            break;
-        /*case "web":
-            setData(webPortfolio);
-            break;
-        case "mobile":
-            setData(mobilePortfolio);
-            break;
-        case "design":
-            setData(designPortfolio);
-            break;
-        case "content":
-            setData(contentPortfolio);
-            break;*/
-        default:
-        setData(featuredPortfolio);
-    }
-
-}, [selected])
+    useEffect(() => {
+        switch(selected) {
+            case "featured":
+                setData(featuredPortfolio);
+                break;
+            default:
+                setData(featuredPortfolio);
+        }
+    }, [selected]);
 
     return (
-        <div className="portfolio" id="portfolio">
+        <div className="portfolio" id="portfolio" data-testid="portfolio-section">
             <h1>Portfolio</h1>
             <ul>
-              {list.map((item) => (
-              <PortfolioList
-              title={item.title}
-              active ={selected === item.id}
-              setSelected={setSelected}
-              id={item.id}
-              githublink={item.githublink}
-              linktoproject={item.linktoproject}
-              />
-              ))}
-            </ul>
-            <div className="container">
-                {data.map((d) => (
-                <div className="item">
-                    <img
-                    src={d.img}
-                    alt=""
+                {list.map((item) => (
+                    <PortfolioList
+                        key={item.id}
+                        title={item.title}
+                        active={selected === item.id}
+                        setSelected={setSelected}
+                        id={item.id}
                     />
-                    <h3>{d.title}</h3>
-                    <Button id="project1github" target="_blank"
-                        href={d.githublink} size="medium" startIcon={<GitHub/>}></Button>
-                    <Button id="project1link" target="_blank"
-                        href={d.linktoproject} size="medium" startIcon={<Link/>}></Button>
-                </div>
                 ))}
-
+            </ul>
+            <div className="container" data-testid="portfolio-container">
+                {data.map((d, index) => (
+                    <div className="item" key={d.id || index} data-testid="portfolio-item">
+                        <img
+                            src={d.img}
+                            alt={`${d.title} project thumbnail`}
+                        />
+                        <h3>{d.title}</h3>
+                        <Button 
+                            data-testid="github-button"
+                            aria-label={`GitHub repository for ${d.title}`}
+                            target="_blank"
+                            href={d.githublink} 
+                            size="medium" 
+                            startIcon={<GitHub/>}>
+                        </Button>
+                        <Button 
+                            data-testid="project-link-button"
+                            aria-label={`Live project link for ${d.title}`}
+                            target="_blank"
+                            href={d.linktoproject} 
+                            size="medium" 
+                            startIcon={<Link/>}>
+                        </Button>
+                    </div>
+                ))}
             </div>
-
-
         </div>
     );
 }

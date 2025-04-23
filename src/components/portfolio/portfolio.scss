@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@use "../../global.scss" as global;
 
 
 .portfolio{
@@ -10,7 +10,7 @@
     h1{
         font-size: 50px;
 
-        @include mobile {
+        @include global.mobile {
             font-size: 20px;
         }
 
@@ -22,7 +22,7 @@
         list-style: none;
         display: flex;
 
-        @include mobile {
+        @include global.mobile {
             margin: 10px 0;
             flex-wrap: wrap;
             justify-content: center;
@@ -36,8 +36,8 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    @include mobile {
-        width: 100%;
+    @include global.mobile {
+        width: 130px;
     }
 
 .item{
